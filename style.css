@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+header{
+    padding: 2rem;
+}
+p{
+    font-family: Raleway;
+    font-size: 18px;
+}
+.logo{
+    text-align: center;
+    margin-top: -1rem;
+    font-size: 20px;
+    font-family: Satisfy;
+    color: rgb(34, 33, 33);
+}
+span{
+    color: orange;
+}
+
+.container1{
+    display: flex;
+    padding:0 2rem;
+}
+.box,.socials{
+    width: 5%;
+    text-align: center;
+    margin-top: 10rem;
+}
+h1{
+    
+    padding-top: 13rem;
+    
+    color:rgb(41, 88, 107);
+    /* color: rgb(34, 33, 33); */
+    font-size: 50px;
+    /* padding-bottom: 10rem; */
+    text-align: center;
+}
+.top-image{
+    width: 90%;
+    height: 500px;
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tiny{
+    width: 8px;
+    height: 8px;
+    border: 1px solid gray;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: orange;
+
+}
+.tiny:hover{
+    background-color: orangered;
+
+}
+.social-items{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 2rem 5rem 2rem 2rem;
+    margin: 7rem 0 2rem 0;
+    color:black;
+    background-image: url(./images/elena-mozhvilo-N8UG_AQcui0-unsplash.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-text{
+    font-size: 48px;
+    /* line-height: 48px; */
+    text-align: center;
+    margin: auto;
+    letter-spacing: 20px;
+}
+.small{
+    width: 30px;
+    height: 3px;
+  
+   
+   background-color: orange;
+    line-height: 10px;
+    margin: auto;
+}
+.long{
+    width: 200px ;
+    height: 3px;
+   
+    margin: auto;
+   background-color: orange;
+}
+.lorem{
+    width: 50%;
+    padding:0 6rem;
+}
+.heading{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0 2rem 8rem;
+}
+
+.circle,.pictures{
+    display: flex;
+}
+.small-circle{
+    
+    width: 18px;
+    height: 18px;
+    border: 1px solid orange;
+    border-radius: 18px;
+}
+.favor{
+    color: orange;
+    margin-left: 10px;
+}
+.pictures{
+    float: right;
+    padding: 0 8rem;
+}
+#arr{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    z-index: 1;
+}
+.arrow{
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 40px;
+}
+.all{
+   margin: 10px; 
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding:0 8rem;
+}
+.container3{
+    width: 30%;
+    padding: 2rem;
+    margin: 30px 0;
+    background-color: white;
+    box-shadow: 4px 4px 20px 4px rgb(172, 163, 163) ;
+    border-radius: 10px;
+}
+.container3 p{
+    margin-top: 10px;
+}
+.image{
+    width: 100%;
+    height: 400px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 10px 15px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 5px;
+}
+.btn{
+    text-align: center;
+    padding: 4rem;
+}
+#button-arrow{
+    margin-left: 30px;
+}
+.container4{
+    width: 100%;
+    padding: 4rem 0;
+    margin: auto;
+    background-image: url(./images/elena-mozhvilo-N8UG_AQcui0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.container5{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.first-artist{
+    width: 400px;
+    height: 500px;
+    margin-right: 4rem;
+}
+.artist{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 6rem;
+}
+.artist-image{
+    display: flex;
+    
+}
+.small-image{
+    width: 200px;
+    height: 250px;
+    margin-right: 2rem;
+}
+.artist-text{
+    margin-top: 20px;
+    width: 450px;
+}
+.artist-handle{
+    margin: 3rem 0;
+}
+.artist-container{
+    margin-top: 20px;
+}
+.artist-container h3{
+    font-size: 24px;
+}
+.artwork{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 8rem 5rem 6rem 1rem;
+}
+.full-image{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4rem;
+}
+.container6,footer,.footer-links{
+    display: flex;
+    justify-content: space-between;
+}
+.container6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 0;
+    background-color: rgb(43, 40, 40);
+}
+.contact{
+    width: 25%;
+    color: white;
+}
+.contact h3{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.contact p{
+    font-size: 14px;
+    margin-left: 50px;
+    border-left: 1px solid white;
+    padding-left: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+   
+    padding: 2rem 2rem 1rem 2rem ;
+}
+.footer-text{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    font-size: 14px;
+}
+.footer-links a{
+    margin-top: 10px;
+    font-size: 14px;
+    margin-right: 20px;
+    color: white;
+    font-family: Raleway;
+    text-decoration: none;
+}
+.last-btn{
+    margin-top: -10px;
+    background-color: orange;
+    border: 1px solid orange;
+    outline: none;
+    color: white;
+}
+
+@media screen and (max-width:770px){
+.logo{
+    margin-top: -20px;
+}
+h1{
+    padding-top: 8rem;
+}
+.tiny{
+    width: 8px;
+    height: 8px;
+    margin-right: 25px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: auto;
+   
+
+}
+
+.social-items{
+    margin-left: auto;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    width: 100%;
+    font-size: 14px;
+}
+.gallery,.artwork,.artist{
+    
+    width: 100%;
+    padding: 4rem 0;
+    
+}
+.lorem{
+    width: 100%;
+    padding:0 2rem;
+}
+.pictures{
+    padding: 0 2rem;
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding:0 2rem;
+}
+.container3{
+    width: 100%;
+    padding: 2rem;
+}
+.container4{
+    padding: 2rem 0;
+}
+.container5{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+.first-artist{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.artist-container{
+    width: 100%;
+    padding: 2rem;
+}
+.artist-image{
+    display: flex;
+    flex-wrap: wrap;
+}
+.artist-text{
+    margin-top: 20px;
+    width: auto;
+}
+.small-image{
+    width: 250px;
+    height: 300px;
+    margin: 2rem 2rem 2rem 0;
+    
+}
+.container6{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.contact{
+    width: 100%;
+    color: white;
+   margin-bottom: 30px;
+}
+.contact h3{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.contact p{
+    font-size: 14px;
+    margin-left: auto;
+}
+.footer-links{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+.footer-text{
+    width: 100%;
+    display: flex;
+   flex-direction: column-reverse;
+}
+
+}
